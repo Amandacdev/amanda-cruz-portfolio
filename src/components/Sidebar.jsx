@@ -11,21 +11,10 @@ export default function Sidebar(props) {
           <h3>Desenvolvedora.</h3>
 
           <ul className="contacts">
-            <li><a target="_blank" href="https://www.linkedin.com/in/amandacrz/">
-                  <button>Currículo</button>
-                </a>
-            </li>
-            <li>
-              <a target="_blank" href="https://www.linkedin.com/in/amandacrz/">
-                <button>Projetos</button>
-              </a>
-            </li>
-            <li>
-              <a target="_blank" href="https://www.linkedin.com/in/amandacrz/">
-                <button>Email</button>
-              </a>
+            <li><a target="_blank" href="/amanda-cruz-portfolio/src/assets/curriculo-Amanda-Cruz-de-Araujo.pdf"><button>Currículo</button></a>
             </li>
           </ul>
+
 
         </div>
         <div className="footer">

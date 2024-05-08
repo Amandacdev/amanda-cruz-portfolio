@@ -35,6 +35,12 @@ const contactsListData = [
       "https://e7.pngegg.com/pngimages/802/636/png-clipart-social-media-computer-icons-linkedin-logo-social-media-text-business.png",
     alt: "Imagem da logo do linkedin",
   },
+  {
+    url: "mailto:amanda10jp@gmail.com.br",
+    imageUrl:
+      "https://i.pinimg.com/564x/cf/c4/b6/cfc4b6c572448f1f5996b98b29a8ea44.jpg",
+    alt: "Icon email",
+  },
 ];
 
 const technologiesListData = [
@@ -98,6 +104,7 @@ export default function App() {
   return (
     <div>
       <div className="reading-indicator"></div>
+
       <Sidebar className="contacts-list">
         {contactsListData.map(function (item) {
           return (
@@ -114,8 +121,8 @@ export default function App() {
             interessada em <span>desenvolvimento de sistemas</span> e <span>análise de dados.</span></p> 
             <p>Estou aberta à oportunidades de estágio nessas áreas.</p>
           </div>
-          <a target="_blank" href="https://www.linkedin.com/in/amandacrz/">
-            <button className="button-projects">Currículo</button>
+          <a target="_blank" href="/amanda-cruz-portfolio/src/assets/curriculo-Amanda-Cruz-de-Araujo.pdf">
+            <button className="button-curriculum">Currículo</button>
           </a>
           {aboutMe.map(function (item) {
             return (
