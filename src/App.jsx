@@ -1,7 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
 import Sidebar from "./components/Sidebar";
 import Section from "./components/Section";
 import ListItem from "./components/ListItem";
@@ -91,7 +88,8 @@ const idiomasListData = [
   {
     texto: "Português: Nativo."
   }
-]
+];
+
 const aboutMe = [
   {
     imageUrl:
@@ -114,11 +112,11 @@ export default function App() {
       </Sidebar>
 
       <main>
-        <Section title="Sobre Mim" className="aboutMe">
+        <Section title="Sobre Mim" className="about-me">
           <div>
             <p>Olá! Sou uma desenvolvedora em formação pelo curso de Sistemas para Internet (IFPB).</p> 
             <p>Sou uma pessoa muito curiosa que adora aprender novas tecnologias e buscar soluções para problemas. Graduada em Biotecnologia, tenho experiência em administração de projetos, gestão de pessoas e liderança. Tenho um nível avançado de inglês e sou principalmente
-            interessada em <span>desenvolvimento de sistemas</span> e <span>análise de dados.</span></p> 
+            interessada em <span>desenvolvimento de sistemas</span> e <span>análise de dados.</span> 💙👩‍💻</p> 
             <p>Estou aberta à oportunidades de estágio nessas áreas.</p>
           </div>
           <a target="_blank" href="/amanda-cruz-portfolio/src/assets/curriculo-Amanda-Cruz-de-Araujo.pdf">
@@ -137,7 +135,7 @@ export default function App() {
 
         <Section
           title="Projetos"
-          subtitle="Os projetos que mais gostei de desenvolver"
+          subtitle="Os projetos que mais gostei de desenvolver ✨"
           className="projects-list"
         >
           {projectsListData.map(function (item) {

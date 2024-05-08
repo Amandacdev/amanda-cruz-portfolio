@@ -72,12 +72,35 @@ button{
 
 .about {
   position: relative;
-  top: 10vh;
+  top: 2vh;
   line-height: 4vh;
   margin: 0 90px 0 90px;
 }
 
-.contacts button {
+/*Efeito digitando máquina de escrever*/
+.about h2{
+  margin-left: 16%;
+  border-right: 4px solid;
+  width: 12ch;
+  overflow: hidden;
+  animation: typing 1s steps(13), 
+  blinking 0.6s infinite step-end alternate;
+}
+
+@keyframes typing {
+  from{
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  50%{
+    border-color: transparent;
+  }
+}
+/*Fim do efeito*/
+
+.curriculum-sidebar {
   font-style: italic;
   font-weight: 600;
   margin-top: 30%;
@@ -113,10 +136,8 @@ section {
   margin-left: 30%;
   align-content: center;
   min-height: 100vh;
-
   padding-top: 4px;
   border-radius: 10px;
-
   animation: apper 1ms ease-in-out;
   animation-timeline: view();
   animation-range: cover 0 cover 50%;
@@ -139,7 +160,6 @@ section {
   height: 4px;
   inset: 0;
   position: fixed;
-
   animation: scroll 1ms ease-in-out;
   animation-timeline: scroll();
 }
@@ -178,7 +198,6 @@ section ul,
   margin-top: 24px;
 }
 
-
 section ul li {
   transition: transform 0.3s;
 }
@@ -186,7 +205,6 @@ section ul li {
 section ul li:hover {
   transform: scale(1.1);
 }
-
 
 .projects-list img,
 .button-projects {
@@ -198,12 +216,12 @@ section ul li:hover {
 
 }
 
-.aboutMe p {
+.about-me p {
   text-align: justify;
   padding: 10px 150px 10px 150px;
 }
 
-.aboutMe img {
+.about-me img {
   height: 220px;
 }
 
@@ -239,7 +257,7 @@ section ul li:hover {
 
 }
 
-.button-projects:hover, .contacts button:hover, .button-curriculum:hover {
+.button-projects:hover, .curriculum-sidebar:hover, .button-curriculum:hover {
   background-color: #afbfd8;
   color: #000;
   transform: scale(1.1);
