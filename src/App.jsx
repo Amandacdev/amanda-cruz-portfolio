@@ -119,9 +119,12 @@ export default function App() {
             interessada em <span>desenvolvimento de sistemas</span> e <span>análise de dados.</span> 💙👩‍💻</p> 
             <p>Estou aberta à oportunidades de estágio nessas áreas.</p>
           </div>
-          <a target="_blank" href="/amanda-cruz-portfolio/src/assets/curriculo-Amanda-Cruz-de-Araujo.pdf">
+          <a target="_blank" href="/amanda-cruz-portfolio/src/assets/curriculo-Amanda-Cruz-de-Araujo.pdf" download>
             <button className="button-curriculum">Currículo</button>
           </a>
+
+          
+          
           {aboutMe.map(function (item) {
             return (
               <ListItem

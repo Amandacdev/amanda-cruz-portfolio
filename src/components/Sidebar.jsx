@@ -11,7 +11,7 @@ export default function Sidebar(props) {
           <h2>Desenvolvedora</h2>
         </div>
 
-        <a target="_blank" href="/amanda-cruz-portfolio/src/assets/curriculo-Amanda-Cruz-de-Araujo.pdf">
+        <a target="_blank" href="/amanda-cruz-portfolio/src/assets/curriculo-Amanda-Cruz-de-Araujo.pdf" download>
             <button className="curriculum-sidebar">Currículo</button>
         </a>
 
