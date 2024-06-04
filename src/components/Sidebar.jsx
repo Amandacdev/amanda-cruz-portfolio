@@ -11,10 +11,10 @@ export default function Sidebar(props) {
           <h2>Desenvolvedora</h2>
         </div>
 
-        <a target="_blank" href="/amanda-cruz-portfolio/src/assets/curriculo-Amanda-Cruz-de-Araujo.pdf" download>
+        <a target="_blank" href="https://drive.google.com/file/d/1acVpkPacfo53Kg0rOOvzSUFsUiHXwK78/view">
             <button className="curriculum-sidebar">Currículo</button>
-        </a>
-
+          </a>
+          
         <div className="footer">
           <div>
             <ul className={props.className}>{props.children}</ul>
