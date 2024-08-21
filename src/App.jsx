@@ -49,7 +49,7 @@ const technologiesListData = [
   {
     url: "https://developer.mozilla.org/pt-BR/docs/Web/CSS",
     imageUrl:
-      "https://static-00.iconduck.com/assets.00/file-type-css-icon-1806x2048-r5fwjl3p.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/512px-CSS3_logo.svg.png?20210705212817",
     alt: "Imagem da logo do css",
     texto: "CSS",
   },
@@ -110,14 +110,15 @@ export default function App() {
           );
         })}
       </Sidebar>
-
+      
       <main>
         <Section title="Sobre Mim" className="about-me">
           <div>
-            <p>Olá! Sou uma desenvolvedora em formação pelo curso de Sistemas para Internet (IFPB).</p> 
-            <p>Sou uma pessoa muito curiosa que adora aprender novas tecnologias e buscar soluções para problemas. Graduada em Biotecnologia, tenho experiência em administração de projetos, gestão de pessoas e liderança. Tenho um nível avançado de inglês e sou principalmente
+            <p>Olá! Sou uma desenvolvedora em formação pelo curso de Sistemas para Internet (IFPB).</p>
+            <p>Atualmente, sou estagiária na Companhia de Água e Esgotos da Paraíba (CAGEPA), onde integro a equipe de desenvolvimento como Desenvolvedora Full Stack. Também sou discente no programa de formação Data Analitycs da WoMakers Code, realizado em parceria com iFood e Microsoft.</p>
+            <p>Sou uma pessoa muito curiosa que adora aprender novas tecnologias e buscar soluções para problemas. Graduada em Biotecnologia pela Universidade Federal da Paraíba (UFPB), tenho experiência em administração de projetos, gestão de pessoas e liderança. Tenho um nível avançado de inglês e sou principalmente
             interessada em <span>desenvolvimento de sistemas</span> e <span>análise de dados.</span> 💙👩‍💻</p> 
-            <p>Estou aberta à oportunidades de estágio nessas áreas.</p>
+            <p>Estou aberta à oportunidades nessas áreas.</p>
           </div>
                     
           <a target="_blank" href="https://drive.google.com/file/d/1acVpkPacfo53Kg0rOOvzSUFsUiHXwK78/view">
