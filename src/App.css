@@ -26,7 +26,7 @@ button{
 /*Inicio do CSS para a sidebar*/
 .sidebar {
   position: fixed;
-  width: 25%;
+  /*width: 25%;*/
   height: 95%;
   border-radius: 10px;
   margin: 15px;
@@ -82,7 +82,6 @@ button{
 
 /*Efeito digitando máquina de escrever*/
 .about h2{
-  margin-left: 22%;
   border-right: 4px solid;
   width: 14ch;
   overflow: hidden;
